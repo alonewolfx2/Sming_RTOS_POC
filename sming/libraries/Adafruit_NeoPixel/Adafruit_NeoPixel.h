@@ -24,7 +24,7 @@
 #define ADAFRUIT_NEOPIXEL_H
 #include <SmingCore.h>
 #if ARDUINO >= 100
- #include "Arduino.h"
+ #include "wiring/Arduino.h"
  #define WIRE_WRITE Wire.write
 #else
  #include "WProgram.h"

@@ -5,8 +5,8 @@
  *      Author: flexiti and Anakod
  */
 
-#include "Arduino.h"
-#include "OneWire.h"
+#include "wiring/Arduino.h"
+#include "OneWire/OneWire.h"
 #include "ds18s20.h"
 
 

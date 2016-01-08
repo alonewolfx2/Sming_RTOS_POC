@@ -9,12 +9,12 @@
 #define APP_TELNETSERVER_H_
 
 #include <user_config.h>
-#include "../Delegate.h"
+#include "core/Delegate.h"
 //#include "../Debug.h"
-#include "TcpClient.h"
-#include "TcpServer.h"
-#include "SystemClock.h"
-#include "../services/CommandProcessing/CommandExecutor.h"
+#include "network/TcpClient.h"
+#include "network/TcpServer.h"
+#include "core/SystemClock.h"
+#include "commandprocessing/CommandExecutor.h"
 
 #include <stdio.h>
 

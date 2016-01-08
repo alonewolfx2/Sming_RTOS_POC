@@ -22,7 +22,7 @@
  */
 
 #include "websocket.h"
-#include "aw-sha1.h"
+#include "WebHelpers/aw-sha1.h"
 
 void wsMakeFrame(const uint8_t *data, size_t dataLength,
                  uint8_t *outFrame, size_t *outLength, wsFrameType frameType)

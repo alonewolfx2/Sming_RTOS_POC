@@ -14,7 +14,7 @@
 //#include "params_test.h"
 #ifdef __ets__
 #include <user_config.h>
-#include "../system/flashmem.h"
+#include "system/flashmem.h"
 #include <string.h>
 #include <stdio.h>
 #else

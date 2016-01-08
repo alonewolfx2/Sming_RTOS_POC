@@ -7,8 +7,8 @@
 
 #include "HttpResponse.h"
 
-#include "HttpServerConnection.h"
-#include "../DataSourceStream.h"
+#include "network/HttpServerConnection.h"
+#include "core/DataSourceStream.h"
 
 HttpResponse::HttpResponse()
 {

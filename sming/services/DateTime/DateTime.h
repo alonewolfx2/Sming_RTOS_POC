@@ -16,7 +16,7 @@
 
 #include <user_config.h>
 #include <time.h>
-#include "../../wiring/WString.h"
+#include "wiring/WString.h"
 
 /*==============================================================================*/
 /* Useful Constants */

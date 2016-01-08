@@ -8,11 +8,11 @@
 #ifndef _SMING_CORE_NETWORK_HTTPCLIENT_H_
 #define _SMING_CORE_NETWORK_HTTPCLIENT_H_
 
-#include "TcpClient.h"
-#include "../../wiring/WString.h"
-#include "../../wiring/WHashMap.h"
-#include "../../services/DateTime/DateTime.h"
-#include "../Delegate.h"
+#include "network/TcpClient.h"
+#include "wiring/WString.h"
+#include "wiring/WHashMap.h"
+#include "DateTime/DateTime.h"
+#include "core/Delegate.h"
 
 class HttpClient;
 class URL;

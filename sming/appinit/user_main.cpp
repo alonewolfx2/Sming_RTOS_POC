@@ -2,8 +2,8 @@
 #include "freertos/task.h"
 #include "espressif/esp_common.h"
 
-#include <user_config.h>
-#include "../sming/SmingCore.h"
+#include "user_config.h"
+#include "SmingCore.h"
 
 extern void init();
 

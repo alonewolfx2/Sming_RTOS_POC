@@ -23,15 +23,15 @@ extern "C" {
 
 	// Updated, compatible version of c_types.h
 	// Just removed types declared in <stdint.h>
-	#include <c_types_compatible.h>
+//	#include <c_types_compatible.h>
 
 	// System API declarations
-	#include <esp_systemapi.h>
+	#include "system/esp_systemapi.h"
 
 	// C++ Support
 	//#include <esp_cplusplus.h>
 	// Extended string conversion for compatibility
-	#include <stringconversion.h>
+//	#include "stringconversion.h"
 	// Network base API
 	//#include <lwip_includes.h>
 

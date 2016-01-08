@@ -10,10 +10,10 @@
 
 #define MQTT_MAX_BUFFER_SIZE 1024
 
-#include "TcpClient.h"
-#include "../Delegate.h"
-#include "../../wiring/WString.h"
-#include "../../services/libemqtt/libemqtt.h"
+#include "network/TcpClient.h"
+#include "core/Delegate.h"
+#include "wiring/WString.h"
+#include "libemqtt/libemqtt.h"
 
 //typedef void (*MqttStringSubscriptionCallback)(String topic, String message);
 typedef Delegate<void(String topic, String message)> MqttStringSubscriptionCallback;

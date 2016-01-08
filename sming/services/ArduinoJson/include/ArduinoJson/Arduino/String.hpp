@@ -21,6 +21,6 @@ class String : public std::string {
 
 #else
 
-#include <WString.h>
+#include <wiring/WString.h>
 
 #endif

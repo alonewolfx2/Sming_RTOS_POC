@@ -10,10 +10,10 @@
 
 #include <user_config.h>
 #include "System.h"
-#include "../sming/Delegate.h"
-#include "../../wiring/WString.h"
-#include "../../wiring/WVector.h"
-#include "../../wiring/IPAddress.h"
+#include "core/Delegate.h"
+#include "wiring/WString.h"
+#include "wiring/WVector.h"
+#include "wiring/IPAddress.h"
 
 extern "C" {
 	#include <smartconfig.h>

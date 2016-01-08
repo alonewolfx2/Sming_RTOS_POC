@@ -8,8 +8,8 @@
 #ifndef SMINGCORE_NETWORK_RBOOTHTTPUPDATE_H_
 #define SMINGCORE_NETWORK_RBOOTHTTPUPDATE_H_
 
-#include "HttpClient.h"
-#include <Timer.h>
+#include "network/HttpClient.h"
+#include "core/Timer.h"
 
 #include <rboot-api.h>
 

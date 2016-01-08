@@ -26,6 +26,6 @@ class Print {
 
 #else
 
-#include <Print.h>
+#include <wiring/Print.h>
 
 #endif

@@ -2,8 +2,8 @@
 #define SMINGCORE_NETWORK_FTPSERVERCONNECTION_H_
 
 #include "TcpConnection.h"
-#include "../../wiring/IPAddress.h"
-#include "../wiring/WString.h"
+#include "wiring/IPAddress.h"
+#include "wiring/WString.h"
 
 #define MAX_FTP_CMD 255
 

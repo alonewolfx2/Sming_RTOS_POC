@@ -39,13 +39,22 @@ BUILD_BASE = build
 FW_BASE    = firmware
 
 # which modules (subdirectories) of the project to include in compiling
-MODULES = user system appinit sming RTOS_EC wiring sming/platform sming/network $(filter %/, $(wildcard services/*/))  $(filter %/, $(wildcard libraries/*/))
-# MODULES += $(SDK_BASE)\third_party\freertos
+ 
+MODULES = appinit
+MODULES += sming/core 
+MODULES += sming/system
+MODULES += sming/wiring
+MODULES += sming/platform
+MODULES += sming/network 
+MODULES += $(filter %/, $(wildcard services/*/))  
+MODULES += $(filter %/, $(wildcard libraries/*/))
 
-EXTRA_INCDIR = include rboot rboot/appcode
-EXTRA_INCDIR += $(SDK_BASE)/include/freertos
-EXTRA_INCDIR += $(SDK_BASE)/include/espressif
-EXTRA_INCDIR += $(SDK_BASE)/include/espressif/esp8266
+EXTRA_INCDIR =  $(SMING_HOME)/sming
+EXTRA_INCDIR += $(SMING_HOME)/include
+EXTRA_INCDIR += $(SMING_HOME)/rboot 
+EXTRA_INCDIR += $(SMING_HOME)/rboot/appcode
+EXTRA_INCDIR += $(SMING_HOME)/services
+EXTRA_INCDIR += $(SMING_HOME)/libraries
 
 #LIBS = cirom gccirom hal phy pp net80211 wpa main freertos lwip udhcp
 # linking libgccirom.a instead of libgcc.a causes reset when working with flash memory (ie spi_flash_erase_sector)
@@ -124,7 +133,7 @@ $1/%.o: %.c
 	$(Q) $(CC) $(INCDIR) $(MODULE_INCDIR) $(EXTRA_INCDIR) $(SDK_INCDIR) $(CFLAGS)  -c $$< -o $$@
 $1/%.o: %.cpp
 	$(vecho) "C+ $$<"
-	$(Q) $(CXX) $(INCDIR) $(MODULE_INCDIR) $(EXTRA_INCDIR) $(SDK_INCDIR) $(CXXFLAGS)  -c $$< -o $$@
+	$(Q) $(CXX) $(EXTRA_INCDIR) $(SDK_INCDIR) $(CXXFLAGS)  -c $$< -o $$@
 endef
 
 .PHONY: all checkdirs clean firmware flashonefile flash flashinit rebuild

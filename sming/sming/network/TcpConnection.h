@@ -8,9 +8,9 @@
 #ifndef _SMING_CORE_TCPCONNECTION_H_
 #define _SMING_CORE_TCPCONNECTION_H_
 
-#include "../wiring/WiringFrameworkDependencies.h"
-#include "IPAddress.h"
-#include "../system/include/lwip_includes.h"
+#include "wiring/WiringFrameworkDependencies.h"
+#include "wiring/IPAddress.h"
+#include "system/lwip_includes.h"
 
 #define NETWORK_DEBUG
 

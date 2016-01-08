@@ -7,12 +7,12 @@
 
 
 
-#include "TcpConnection.h"
-#include "TcpClient.h"
+#include "network/TcpConnection.h"
+#include "network/TcpClient.h"
 #include "TcpServer.h"
 
-#include "../../sming/Digital.h"
-#include "../../sming/Timer.h"
+#include "core/Digital.h"
+#include "core/Timer.h"
 
 int16_t TcpServer::totalConnections = 0;
 
