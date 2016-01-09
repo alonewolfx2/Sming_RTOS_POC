@@ -7,5 +7,9 @@
   #define __ESP8266_EX__
 #endif
 
+#ifndef SERIAL_BAUD_RATE
+  #define SERIAL_BAUD_RATE 115200
+#endif
+
 #endif
 
