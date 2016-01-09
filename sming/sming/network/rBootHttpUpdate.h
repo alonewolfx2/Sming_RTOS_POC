@@ -11,7 +11,7 @@
 #include "HttpClient.h"
 #include "../core/Timer.h"
 
-#include <rboot-api.h>
+#include "rboot/appcode/rboot-api.h"
 
 #define NO_ROM_SWITCH 0xff
 

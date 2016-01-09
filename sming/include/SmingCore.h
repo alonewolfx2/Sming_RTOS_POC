@@ -48,7 +48,7 @@
 #include "sming/network/rBootHttpUpdate.h"
 #include "sming/network/URL.h"
 #include "sming/network/TcpServer.h"
-#include "sming.network/TelnetServer.h"
+#include "sming/network/TelnetServer.h"
 
 #include "services/ArduinoJson/include/ArduinoJson.h"
 #include "services/libemqtt/libemqtt.h"

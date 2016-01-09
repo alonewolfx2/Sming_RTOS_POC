@@ -51,7 +51,6 @@ MODULES += $(filter %/, $(wildcard libraries/*/))
 
 EXTRA_INCDIR =  $(SMING_HOME)/
 EXTRA_INCDIR += $(SMING_HOME)/rboot 
-EXTRA_INCDIR += $(SMING_HOME)/rboot/appcode
 
 #LIBS = cirom gccirom hal phy pp net80211 wpa main freertos lwip udhcp
 # linking libgccirom.a instead of libgcc.a causes reset when working with flash memory (ie spi_flash_erase_sector)
