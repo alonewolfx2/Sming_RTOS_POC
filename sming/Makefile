@@ -46,7 +46,8 @@ MODULES += sming/system
 MODULES += sming/wiring
 MODULES += sming/platform
 MODULES += sming/network 
-MODULES += $(filter %/, $(wildcard services/*/))  
+MODULES += sming/commandprocessing
+MODULES += $(filter %/, $(wildcard sming/services/*/))  
 MODULES += $(filter %/, $(wildcard libraries/*/))
 
 EXTRA_INCDIR =  $(SMING_HOME)/

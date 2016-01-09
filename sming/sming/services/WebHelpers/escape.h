@@ -1,6 +1,8 @@
 #ifndef ESCAPE_H
 #define ESCAPE_H
 
+#include "sming/include/system/esp_systemapi.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif

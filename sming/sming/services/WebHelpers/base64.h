@@ -4,6 +4,8 @@
 #ifndef BASE64_H
 #define BASE64_H
 
+#include "sming/include/system/esp_systemapi.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
