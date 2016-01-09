@@ -8,11 +8,11 @@
 #ifndef _SMING_CORE_HTTPSERVERCONNECTION_H_
 #define _SMING_CORE_HTTPSERVERCONNECTION_H_
 
-#include "network/HttpRequest.h"
-#include "network/HttpResponse.h"
-#include "network/TcpConnection.h"
-#include "wiring/WString.h"
-#include "core/Delegate.h"
+#include "HttpRequest.h"
+#include "HttpResponse.h"
+#include "TcpConnection.h"
+#include "../wiring/WString.h"
+#include "../core/Delegate.h"
 
 class HttpServer;
 

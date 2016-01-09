@@ -6,7 +6,6 @@
  ****/
 
 #include "Digital.h"
-//#include "../wiring/WiringFrameworkIncludes.h"
 
 void pinMode(uint16_t pin, uint8_t mode)
 {

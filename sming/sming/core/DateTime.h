@@ -14,9 +14,8 @@
 #ifndef _DateTime_h
 #define _DateTime_h
 
-#include <user_config.h>
 #include <time.h>
-#include "wiring/WString.h"
+#include "../wiring/WString.h"
 
 /*==============================================================================*/
 /* Useful Constants */

@@ -5,8 +5,6 @@
 extern "C" {
 #endif
 
-#include <user_config.h>
-
 unsigned uri_escape_len(const char *s, size_t len);
 char *uri_escape(char *dest, size_t dest_len, const char *src, int src_len);
 char *uri_unescape(char *dest, size_t dest_len, const char *src, int src_len);

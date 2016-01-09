@@ -7,10 +7,10 @@ Descr: embedded very simple version of printf with float support
 */
 
 #include <stdarg.h>
-#include "system/esp_systemapi.h"
-#include "core/stringconversion.h"
+#include "../include/system/esp_systemapi.h"
+#include "../core/stringconversion.h"
 //#include "../../sming/SmingCore.h"
-#include "system/uart.h"
+#include "uart.h"
 
 #define MPRINTF_BUF_SIZE 256
 

@@ -8,11 +8,10 @@
 #ifndef SERVICES_COMMANDPROCESSING_COMMANDDELEGATE_H_
 #define SERVICES_COMMANDPROCESSING_COMMANDDELEGATE_H_
 
-#include "wiring/WString.h"
-#include "core/Delegate.h"
-#include "network/TcpClient.h"
-//#include "WiringFrameworkIncludes.h"
-#include "commandprocessing/CommandOutput.h"
+#include "../wiring/WString.h"
+#include "../core/Delegate.h"
+#include "../network/TcpClient.h"
+#include "CommandOutput.h"
 
 typedef Delegate<void(String commandLine  ,CommandOutput* commandOutput)> commandFunctionDelegate;
 

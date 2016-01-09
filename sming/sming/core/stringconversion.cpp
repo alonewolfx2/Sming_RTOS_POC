@@ -1,4 +1,4 @@
-#include <user_config.h>
+#include "../include/sming_config.h"
 #include <math.h>
 #include <stdlib.h>
 #include "stringconversion.h"

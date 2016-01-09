@@ -8,11 +8,13 @@
 #ifndef _SMING_CORE_DATASTREAM_H_
 #define _SMING_CORE_DATASTREAM_H_
 
-#include <user_config.h>
-#include "core/FileSystem.h"
-#include "ArduinoJson/include/ArduinoJson.h"
-#include "wiring/WString.h"
-#include "wiring/WHashMap.h"
+#include "../include/sming_config.h"
+#include "../core/FileSystem.h"
+#include "../services/ArduinoJson/include/ArduinoJson.h"
+#include "../wiring/WString.h"
+#include "../wiring/WHashMap.h"
+
+#include "c_types.h"
 
 #define TEMPLATE_MAX_VAR_NAME_LEN	16
 

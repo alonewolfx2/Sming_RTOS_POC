@@ -9,9 +9,7 @@
 #include <espressif/esp8266/ets_sys.h>
 #include <espressif/esp_libc.h>
 
-#include <user_config.h>
-
-#include "system/m_printf.h"
+#include "sming/system/m_printf.h"
 
 #define __ESP8266_EX__ // System definition ESP8266 SOC
 

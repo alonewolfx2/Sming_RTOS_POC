@@ -20,8 +20,8 @@
 
 #include "I2CMaster.h"
 
-#include "core//Clock.h"
-#include "core//Digital.h"
+#include "../core/Clock.h"
+#include "../core/Digital.h"
 // #include "WiringFrameworkIncludes.h"
 
 

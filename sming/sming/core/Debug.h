@@ -6,10 +6,10 @@
 #ifndef SMINGCORE_DEBUG_H_
 #define SMINGCORE_DEBUG_H_
 
-#include "core/HardwareSerial.h"
-#include "core/Clock.h"
-#include "wiring/WString.h"
-#include "commandprocessing/CommandProcessingIncludes.h"
+#include "../core/HardwareSerial.h"
+#include "../core/Clock.h"
+#include "../wiring/WString.h"
+#include "../commandprocessing/CommandProcessingIncludes.h"
 
 // Delegate constructor usage: (&YourClass::method, this)
 typedef Delegate<void(char dbgChar)> DebugPrintCharDelegate;

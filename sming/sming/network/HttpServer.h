@@ -8,11 +8,11 @@
 #ifndef _SMING_CORE_HTTPSERVER_H_
 #define _SMING_CORE_HTTPSERVER_H_
 
-#include "network/TcpServer.h"
-#include "network/WebSocket.h"
-#include "wiring/WHashMap.h"
-#include "wiring/WVector.h"
-#include "core/Delegate.h"
+#include "TcpServer.h"
+#include "WebSocket.h"
+#include "../wiring/WHashMap.h"
+#include "../wiring/WVector.h"
+#include "../core/Delegate.h"
 //#include "../../services/CommandProcessing/CommandProcessingIncludes.h"
 
 class String;

@@ -8,7 +8,7 @@
 */
 
 #include "DateTime.h"
-#include "wiring/Arduino.h"
+#include "../wiring/Arduino.h"
 #include <stdlib.h>
 #include <stdio.h>
 

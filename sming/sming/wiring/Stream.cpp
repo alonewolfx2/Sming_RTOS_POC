@@ -23,8 +23,8 @@
 // #include "WiringFrameworkIncludes.h"
 #include "Stream.h"
 
-#include "core/Clock.h"
-#include "wiring/WString.h"
+#include "../core/Clock.h"
+#include "WString.h"
 
 #define PARSE_TIMEOUT 1000  // default number of milli-seconds to wait
 #define NO_SKIP_CHAR  1  // a magic char not found in a valid ASCII numeric field

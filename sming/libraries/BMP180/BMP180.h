@@ -21,10 +21,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #ifndef BMP180_h
 #define BMP180_h
-#include <SmingCore.h>
+#include "sming/include/SmingCore.h"
 #include <inttypes.h>
 
-#include "core/Wire.h"
+#include "sming/core/Wire.h"
 
 #define BMP180_Address 0x77
 

@@ -13,8 +13,8 @@
 // These may/should/must be removed/altered/replaced in your target
 //#include "params_test.h"
 #ifdef __ets__
-#include <user_config.h>
-#include "system/flashmem.h"
+#include "../../include/sming_config.h"
+#include "../../system/flashmem.h"
 #include <string.h>
 #include <stdio.h>
 #else

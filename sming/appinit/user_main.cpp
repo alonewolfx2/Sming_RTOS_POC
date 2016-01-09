@@ -1,9 +1,8 @@
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
 #include "espressif/esp_common.h"
 
-#include "user_config.h"
-#include "SmingCore.h"
+#include "sming/include/sming_config.h"
+
+//#include "sming/include/SmingCore.h"
 
 extern void init();
 

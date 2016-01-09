@@ -6,9 +6,9 @@
  ****/
 
 #include "DataSourceStream.h"
-#include "network/TcpConnection.h"
-#include "network/HttpRequest.h"
-#include "wiring/WiringFrameworkDependencies.h"
+#include "../network/TcpConnection.h"
+#include "../network/HttpRequest.h"
+#include "../wiring/WiringFrameworkDependencies.h"
 
 MemoryDataStream::MemoryDataStream()
 {

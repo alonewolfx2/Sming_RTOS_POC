@@ -9,11 +9,11 @@
 #define SERVICES_COMMANDPROCESSING_COMMANDHANDLER_H_
 
 //#include "../wiring/WiringFrameworkIncludes.h"
-#include "commandprocessing/CommandDelegate.h"
-#include "wiring/WHashMap.h"
+#include "CommandDelegate.h"
+#include "../wiring/WHashMap.h"
 //#include "SystemClock.h"
 #include <stdio.h>
-#include "core/HardwareSerial.h"
+#include "../core/HardwareSerial.h"
 
 typedef enum {VERBOSE,SILENT} VerboseMode;
 

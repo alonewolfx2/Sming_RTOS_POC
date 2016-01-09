@@ -5,10 +5,9 @@
  * All files of the Sming Core are provided under the LGPL v3 license.
  ****/
 
-#include "core/Interrupts.h"
-#include "core/Digital.h"
-//#include "../wiring/WiringFrameworkIncludes.h"
-#include "system/esp_systemapi.h"
+#include "Interrupts.h"
+#include "Digital.h"
+#include "../include/system/esp_systemapi.h"
 #include "espressif/esp8266/ets_sys.h"
 
 #include "portmacro.h"

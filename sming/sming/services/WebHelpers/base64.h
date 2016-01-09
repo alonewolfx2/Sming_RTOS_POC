@@ -8,8 +8,6 @@
 extern "C" {
 #endif
 
-#include <user_config.h>
-
 /* used to encode 3 bytes into 4 base64 digits */
 void base64encode(const unsigned char in[3], unsigned char out[4], int count);
 

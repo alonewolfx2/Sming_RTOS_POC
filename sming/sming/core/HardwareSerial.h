@@ -9,14 +9,14 @@
 #define _HARDWARESERIAL_H_
 
 //#include "../wiring/WiringFrameworkDependencies.h"
-#include "wiring/Stream.h"
-#include "core/Delegate.h"
-#include "commandprocessing/CommandProcessingIncludes.h"
+#include "../wiring/Stream.h"
+#include "Delegate.h"
+#include "../commandprocessing/CommandProcessingIncludes.h"
 #include "espressif/esp8266/uart_register.h"
 #include "espressif/esp8266/pin_mux_register.h"
-#include "core/CircularBuffer.h"
+#include "CircularBuffer.h"
 
-#include "system/freertos_includes.h"
+#include "../include/system/freertos_includes.h"
 
 #define UART_ID_0   0
 #define UART_ID_1   1

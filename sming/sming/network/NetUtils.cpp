@@ -10,6 +10,7 @@
 #include "../wiring/WString.h"
 #include "lwip/tcp_impl.h"
 #include "lwip/tcp.h"
+#include "../include/system/esp_systemapi.h"
 
 bool NetUtils::ipClientRoutingFixed = false;
 

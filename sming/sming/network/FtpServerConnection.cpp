@@ -1,8 +1,8 @@
 #include "FtpServerConnection.h"
-#include "network/FtpServer.h"
-#include "network/NetUtils.h"
-#include "network/TcpConnection.h"
-#include "core/FileSystem.h"
+#include "FtpServer.h"
+#include "NetUtils.h"
+#include "TcpConnection.h"
+#include "../core/FileSystem.h"
 
 class FTPDataStream : public TcpConnection
 {

@@ -11,8 +11,8 @@
 
 #include "Interrupts.h"
 #include "Delegate.h"
-#include "wiring/WiringFrameworkDependencies.h"
-#include "system/esp_systemapi.h"
+#include "../wiring/WiringFrameworkDependencies.h"
+#include "../include/system/esp_systemapi.h"
 #include "espressif/esp_timer.h"
 
 

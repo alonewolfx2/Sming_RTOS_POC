@@ -6,11 +6,8 @@
  ****/
 
 #include "Wire.h"
-
-#include "core/Digital.h"
-//#include "../wiring/WiringFrameworkIncludes.h"
-
-#include "wiring/I2CMaster.h"
+#include "Digital.h"
+#include "../wiring/I2CMaster.h"
 
 TwoWire::TwoWire(int pinSCL, int pinSDA)
 {

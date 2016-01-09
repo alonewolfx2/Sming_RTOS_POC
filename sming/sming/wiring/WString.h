@@ -22,7 +22,7 @@
 #ifdef __cplusplus
 
 #include "WiringFrameworkDependencies.h"
-#include "core/stringconversion.h"
+#include "../core/stringconversion.h"
 #include "WCharacter.h"
 #include <stdio.h>
 #include "espressif/esp_common.h"

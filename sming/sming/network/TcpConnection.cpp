@@ -7,10 +7,10 @@
 
 #include "TcpConnection.h"
 
-#include "core/DataSourceStream.h"
-#include "network/NetUtils.h"
-#include "wiring/WString.h"
-#include "wiring/IPAddress.h"
+#include "../core/DataSourceStream.h"
+#include "NetUtils.h"
+#include "../wiring/WString.h"
+#include "../wiring/IPAddress.h"
 
 TcpConnection::TcpConnection(bool autoDestruct) : autoSelfDestruct(autoDestruct), sleep(0), canSend(true), timeOut(70)
 {

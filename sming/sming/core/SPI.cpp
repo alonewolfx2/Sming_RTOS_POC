@@ -7,10 +7,10 @@
 
 // SPIClass code based on https://github.com/Perfer/esp8266_ili9341
 
-#include "system/spi_register_sming.h"
+#include "../include/system/spi_register_sming.h"
 #include "SPI.h"
-#include "core/Digital.h"
-
+#include "Digital.h"
+#include "../include/system/esp_systemapi.h"
 
 SPIClass SPI(SPI_ID_HSPI);
 

@@ -22,7 +22,11 @@
  */
 #ifndef ADAFRUIT_NEOPIXEL_H
 #define ADAFRUIT_NEOPIXEL_H
-#include <SmingCore.h>
+
+#include "sming/include/SmingCore.h"
+
+/*
+
 #if ARDUINO >= 100
  #include "wiring/Arduino.h"
  #define WIRE_WRITE Wire.write
@@ -31,6 +35,7 @@
   #define WIRE_WRITE Wire.send
 #endif
 
+*/
 
 // 'type' flags for LED pixels (third parameter to constructor):
 #define NEO_RGB     0x00 // Wired for RGB data order

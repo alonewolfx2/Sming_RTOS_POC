@@ -2,10 +2,10 @@
 #define APP_SYSTEMCLOCK_H_
 
 #include "Clock.h"
-#include "DateTime/DateTime.h"
-#include "wiring/WString.h"
-#include "network/NtpClient.h"
-#include "platform/RTC.h"
+#include "DateTime.h"
+#include "../wiring/WString.h"
+#include "../network/NtpClient.h"
+#include "../platform/RTC.h"
 
 enum TimeZone
 {

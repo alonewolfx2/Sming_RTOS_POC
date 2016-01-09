@@ -115,10 +115,10 @@ sample code bearing this copyright.
 */
 
 #include "OneWire.h"
-#include "wiring/WConstants.h"
-#include "core/Clock.h"
-#include "core/Interrupts.h"
-#include "wiring/FakePgmSpace.h"
+#include "sming/wiring/WConstants.h"
+#include "sming/core/Clock.h"
+#include "sming/core/Interrupts.h"
+#include "sming/wiring/FakePgmSpace.h"
 
 OneWire::OneWire(uint8_t pin)
 {

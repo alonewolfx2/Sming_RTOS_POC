@@ -7,12 +7,11 @@
 
 #include "HttpClient.h"
 
-//#include "../SmingCore.h"
-#include "network/URL.h"
-#include "core/FileSystem.h"
-#include "network/WebConstants.h"
-#include "network/NetUtils.h"
-#include "network/HttpRequest.h"
+#include "URL.h"
+#include "../core/FileSystem.h"
+#include "WebConstants.h"
+#include "NetUtils.h"
+#include "HttpRequest.h"
 
 HttpClient::HttpClient(bool autoDestruct /* = false */) : TcpClient(autoDestruct)
 {

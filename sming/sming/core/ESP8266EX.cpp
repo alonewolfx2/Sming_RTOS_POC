@@ -6,7 +6,7 @@
  ****/
 
 #include "ESP8266EX.h"
-#include "core/Digital.h"
+#include "../core/Digital.h"
 
 void EspDigitalPin::mode(uint8_t mode)
 {

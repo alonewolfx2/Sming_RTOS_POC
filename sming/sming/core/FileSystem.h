@@ -10,6 +10,7 @@
 
 #include "../services/SpifFS/spiffs_sming.h"
 #include "../wiring/WVector.h"
+#include "../include/system/esp_systemapi.h"
 
 class String;
 

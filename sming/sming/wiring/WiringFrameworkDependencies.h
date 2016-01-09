@@ -8,8 +8,6 @@
 #ifndef WIRING_WIRINGFRAMEWORKDEPENDENCIES_H_
 #define WIRING_WIRINGFRAMEWORKDEPENDENCIES_H_
 
-#include "../include/user_config.h"
-
 #include <c_types.h>
 #include <ctype.h>
 #include <math.h>
@@ -20,6 +18,6 @@
 #include "WConstants.h"
 #include "BitManipulations.h"
 #include "FakePgmSpace.h"
-#include "core/pins_arduino.h"
+#include "../core/pins_arduino.h"
 
 #endif /* WIRING_WIRINGFRAMEWORKDEPENDENCIES_H_ */

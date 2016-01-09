@@ -9,7 +9,7 @@
 #define SERVICES_COMMANDPROCESSING_COMMANDEXECUTOR_H_
 
 //#include "WiringFrameworkIncludes.h"
-#include "network/TcpClient.h"
+#include "../network/TcpClient.h"
 #include "CommandHandler.h"
 #include "CommandOutput.h"
 

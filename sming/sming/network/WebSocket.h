@@ -8,12 +8,12 @@
 #ifndef SMINGCORE_NETWORK_WEBSOCKET_H_
 #define SMINGCORE_NETWORK_WEBSOCKET_H_
 
-#include "network/TcpServer.h"
-#include "network/HttpServerConnection.h"
-#include "wiring/WHashMap.h"
-#include "wiring/WVector.h"
-#include "core/Delegate.h"
-#include "cWebsocket/websocket.h"
+#include "TcpServer.h"
+#include "HttpServerConnection.h"
+#include "../wiring/WHashMap.h"
+#include "../wiring/WVector.h"
+#include "../core/Delegate.h"
+#include "../services/cWebsocket/websocket.h"
 
 class HttpServer;
 class CommandExecutor;

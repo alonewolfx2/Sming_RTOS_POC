@@ -2,11 +2,11 @@
 #define APP_NTPCLIENT_H_
 
 #include "UdpConnection.h"
-#include "platform/System.h"
-#include "core/Timer.h"
-#include "core/SystemClock.h"
-#include "platform/Station.h"
-#include "core/Delegate.h"
+#include "../platform/System.h"
+#include "../core/Timer.h"
+#include "../core/SystemClock.h"
+#include "../platform/Station.h"
+#include "../core/Delegate.h"
 
 #define NTP_PORT 123
 #define NTP_PACKET_SIZE 48

@@ -6,9 +6,9 @@
  ****/
 
 #include "TcpClient.h"
-#include "wiring/IPAddress.h"
-#include "core/DataSourceStream.h"
-#include "wiring/WString.h"
+#include "../wiring/IPAddress.h"
+#include "../core/DataSourceStream.h"
+#include "../wiring/WString.h"
 
 TcpClient::TcpClient(tcp_pcb *clientTcp, TcpClientDataDelegate clientReceive, TcpClientCompleteDelegate onCompleted)
 : TcpConnection(clientTcp, true), state(eTCS_Connected)

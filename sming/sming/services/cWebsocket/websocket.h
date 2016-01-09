@@ -24,10 +24,10 @@
 #ifndef WEBSOCKET_H
 #define	WEBSOCKET_H
 
-#include <user_config.h>
 #include <stdint.h> /* uint8_t */
 #include <string.h>
-#include "wiring/FakePgmSpace.h"
+#include "../../include/sming_config.h"
+#include "../../wiring/FakePgmSpace.h"
 
 #ifdef __AVR__
     #include <avr/pgmspace.h>

@@ -11,10 +11,10 @@
 //#include "../wiring/WiringFrameworkIncludes.h"
 #include <cstdarg>
 
-#include "core/Clock.h"
-#include "core/Interrupts.h"
-#include "system/uart.h"
-#include "system/freertos_includes.h"
+#include "Clock.h"
+#include "Interrupts.h"
+#include "../system/uart.h"
+#include "../include/system/freertos_includes.h"
 
 //set m_printf callback
 extern void setMPrintfPrinterCbc(void (*callback)(char));

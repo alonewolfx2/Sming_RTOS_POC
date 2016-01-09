@@ -8,11 +8,11 @@
 #ifndef SERVICES_COMMANDPROCESSING_COMMANDOUTPUT_H_
 #define SERVICES_COMMANDPROCESSING_COMMANDOUTPUT_H_
 
-#include "network/TcpClient.h"
-#include "wiring/Stream.h"
-#include "wiring/Print.h"
-#include "wiring/WiringFrameworkDependencies.h"
-#include "network/WebSocket.h"
+#include "../network/TcpClient.h"
+#include "../wiring/Stream.h"
+#include "../wiring/Print.h"
+#include "../wiring/WiringFrameworkDependencies.h"
+#include "../network/WebSocket.h"
 
 class CommandOutput: public Print
 {

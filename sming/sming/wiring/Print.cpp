@@ -17,10 +17,9 @@
 */
 
 #include "Print.h"
-// #include "WiringFrameworkIncludes.h"
 #include "WString.h"
-//#include "esp_systemapi.h"
-//#include "ets_sys.h"
+#include "../include/system/esp_systemapi.h"
+
 /*
 || @description
 || | Virtual method - may be redefined in derived class (polymorphic)

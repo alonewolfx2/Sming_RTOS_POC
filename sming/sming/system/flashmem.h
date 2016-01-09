@@ -12,8 +12,7 @@ extern "C" {
 #include <string.h>
 #include <stdio.h>
 
-#include <user_config.h>
-
+#include "../include/system/esp_systemapi.h"
 #include "spi_flash.h"
 
 

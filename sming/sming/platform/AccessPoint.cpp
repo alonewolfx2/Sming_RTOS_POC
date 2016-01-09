@@ -8,7 +8,7 @@
 #include "AccessPoint.h"
 //#include "../../sming/SmingCore.h"
 //#include "esp_wifi.h"
-#include "core/Interrupts.h"
+#include "../core/Interrupts.h"
 
 AccessPointClass WifiAccessPoint;
 

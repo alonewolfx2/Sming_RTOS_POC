@@ -6,8 +6,8 @@
  */
 
 #include "TelnetServer.h"
-#include "network/TcpServer.h"
-#include "core/Debug.h"
+#include "TcpServer.h"
+#include "../core/Debug.h"
 
 TelnetServer::TelnetServer() : TcpServer()
 {

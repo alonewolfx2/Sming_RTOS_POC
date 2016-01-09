@@ -8,9 +8,8 @@
 #ifndef _NET_WIRING_
 #define _NET_WIRING_
 
-#include "sming/include/sming_config.h"
-
 #include "sming/include/system/esp_systemapi.h"
+
 #include "sming/wiring/WiringFrameworkIncludes.h"
 
 #include "sming/core/Delegate.h"
@@ -48,10 +47,10 @@
 #include "sming/network/rBootHttpUpdate.h"
 #include "sming/network/URL.h"
 #include "sming/network/TcpServer.h"
-#include "sming.network/TelnetServer.h"
+#include "sming/network/TelnetServer.h"
 
-#include "services/ArduinoJson/include/ArduinoJson.h"
-#include "services/libemqtt/libemqtt.h"
-#include "services/FATFS/ff.h"
+#include "sming/services/ArduinoJson/include/ArduinoJson.h"
+#include "sming/services/libemqtt/libemqtt.h"
+#include "sming/services/FATFS/ff.h"
 
 #endif

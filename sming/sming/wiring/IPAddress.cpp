@@ -19,7 +19,8 @@
 
 //#include <Arduino.h>
 #include "IPAddress.h"
-#include "wiring/WString.h"
+#include "WString.h"
+#include "../include/system/esp_systemapi.h"
 
 
 IPAddress::IPAddress()

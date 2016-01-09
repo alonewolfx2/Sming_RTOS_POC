@@ -7,13 +7,13 @@
 
 #include "HttpServer.h"
 
-#include "network/HttpRequest.h"
-#include "network/HttpResponse.h"
-#include "network/HttpServerConnection.h"
-#include "network/TcpClient.h"
-#include "wiring/WString.h"
-#include "cWebsocket/websocket.h"
-#include "commandprocessing/CommandProcessingIncludes.h"
+#include "HttpRequest.h"
+#include "HttpResponse.h"
+#include "HttpServerConnection.h"
+#include "TcpClient.h"
+#include "../wiring/WString.h"
+#include "../services/cWebsocket/websocket.h"
+#include "../commandprocessing/CommandProcessingIncludes.h"
 
 HttpServer::HttpServer()
 {

@@ -8,10 +8,10 @@
 #ifndef _SMING_CORE_NETWORK_HTTPRESPONSE_H_
 #define _SMING_CORE_NETWORK_HTTPRESPONSE_H_
 
-#include "core/DataSourceStream.h"
-#include "network/WebConstants.h"
-#include "wiring/WHashMap.h"
-#include "wiring/WString.h"
+#include "../core/DataSourceStream.h"
+#include "WebConstants.h"
+#include "../wiring/WHashMap.h"
+#include "../wiring/WString.h"
 
 class pbuf;
 class HttpServer;

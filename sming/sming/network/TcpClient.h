@@ -9,7 +9,7 @@
 #define _SMING_CORE_TCPCLIENT_H_
 
 #include "TcpConnection.h"
-#include "core/Delegate.h"
+#include "../core/Delegate.h"
 
 class TcpClient;
 class MemoryDataStream;

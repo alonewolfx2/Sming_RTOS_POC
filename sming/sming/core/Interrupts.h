@@ -8,9 +8,9 @@
 #ifndef _SMING_CORE_INTERRUPTS_H_
 #define _SMING_CORE_INTERRUPTS_H_
 
-#include "wiring/WiringFrameworkDependencies.h"
-#include "core/Delegate.h"
-#include "platform/gpio.h"
+#include "../wiring/WiringFrameworkDependencies.h"
+#include "Delegate.h"
+#include "../platform/gpio.h"
 
 #define ESP_MAX_INTERRUPTS 16
 

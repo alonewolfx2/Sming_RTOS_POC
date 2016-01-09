@@ -8,7 +8,7 @@
 #ifndef SMINGCORE_DELEGATE_H_
 #define SMINGCORE_DELEGATE_H_
 
-#include <user_config.h>
+#include "../include/system/esp_systemapi.h"
 
 template<class ReturnType, typename... ParamsList>
 class IDelegateCaller

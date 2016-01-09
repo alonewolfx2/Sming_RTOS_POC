@@ -20,9 +20,7 @@
 #ifndef IPAddress_h
 #define IPAddress_h
 
-#include <user_config.h>
 #include "Printable.h"
-
 #include "WString.h"
 
 // A class to make it easier to handle and pass around IP addresses
