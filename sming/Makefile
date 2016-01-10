@@ -40,7 +40,7 @@ FW_BASE    = firmware
 
 # which modules (subdirectories) of the project to include in compiling
  
-MODULES = appinit
+MODULES = sming/appinit
 MODULES += sming/core 
 MODULES += sming/system
 MODULES += sming/wiring

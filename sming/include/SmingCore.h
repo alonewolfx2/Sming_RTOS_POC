@@ -30,7 +30,7 @@
 
 #include "sming/platform/System.h"
 #include "sming/platform/Station.h"
-//#include "platform/AccessPoint.h"
+#include "platform/AccessPoint.h"
 //#include "platform/WDT.h"
 
 #include "sming/network/HttpClient.h"
